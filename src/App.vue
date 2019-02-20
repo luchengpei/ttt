@@ -27,7 +27,7 @@ export default {
     ])
   },
   components:{
-    haha:require('@/components/haha.vue').default,
+    haha:require('@/components/haha.vue').default
   }
 }
 </script>
