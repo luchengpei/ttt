@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <router-view/> -->
+    <!-- <router-view/> -->11
     <div>{{count}}</div>
     <button @click="add(1)">add</button>
     <button @click="cut(1)">cut</button>
@@ -27,7 +27,7 @@ export default {
     ])
   },
   components:{
-    haha:require('@/components/haha.vue').default
+    haha:require('@/components/haha.vue').default,
   }
 }
 </script>
